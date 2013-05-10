@@ -45,7 +45,7 @@ public class webserver_starter
     jTextArea2.setColumns(30);
     jTextArea2.setRows(15);
     //change this to impress your friends
-    this.setTitle("Jon\'s fancy prancy webserver");
+    this.setTitle("HTTP Server");
     //ugly inline listener, it's for handling closing of the window
     this.addWindowListener(new java.awt.event.WindowAdapter() {
       public void windowClosing(WindowEvent e) {

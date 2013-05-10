@@ -39,8 +39,7 @@ public class server
     //we are now inside our own thread separated from the gui.
     ServerSocket serversocket = null;
     //To easily pick up lots of girls, change this to your name!!!
-    s("The simple httpserver v. 0000000000\nCoded by Jon Berg" +
-      "<jon.berg[on server]turtlemeat.com>\n\n");
+    s("Java HTTP Server \nCoded by Jon Berg.\n\n");
     //Pay attention, this is where things starts to cook!
     try {
       //print/send message to the guiwindow

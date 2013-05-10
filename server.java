@@ -256,8 +256,10 @@ public class server
         break;
       case 2:
         s = s + "Content-Type: image/gif\r\n";
+        break;
       case 3:
         s = s + "Content-Type: application/x-zip-compressed\r\n";
+        break;
       default:
         s = s + "Content-Type: text/html\r\n";
         break;
